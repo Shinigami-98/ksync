@@ -1,0 +1,15 @@
+[Unit]
+Description=Run KDE Connect Backup twice daily
+Requires=ksyncb.service
+
+[Timer]
+Unit=ksyncb.service
+# Run at 10:00 AM
+OnCalendar=*-*-* 10:00:00
+# Run at 8:00 PM
+OnCalendar=*-*-* 20:00:00
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target 
