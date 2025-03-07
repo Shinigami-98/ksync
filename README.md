@@ -90,13 +90,13 @@ By following these steps, you can easily set up and manage the KSyncB backup too
 
 ### Running the Backup Tool
 
-2. **Configure Devices**:
+1. **Configure Devices**:
    - Use the interactive prompts to configure devices and select directories for backup.
 
-3. **Automatic Backup**:
+2. **Automatic Backup**:
    - The tool will automatically back up configured directories at scheduled intervals.
 
-4. **Manual Backup**:
+3. **Manual Backup**:
    - Select directories manually for immediate backup.
 
 ### Configuration
